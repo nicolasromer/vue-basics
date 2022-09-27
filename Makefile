@@ -37,7 +37,7 @@ watch: 	## watch for code changes and transpile as we go
 
 
 start-dev: ## start watching source files and running server concurrently
-	${NPM_BIN}/concurrently --kill-others "${WATCH_TS}" "${WATCH_STATIC}" "${START_CMD}"
+	${NPM_BIN}/concurrently --kill-others "${WATCH_TS}" "${WATCH_STATIC}" "${START_CMD}" 
 
 test:
 	npx jest

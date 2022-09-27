@@ -9,6 +9,9 @@ An Express and Typescript service boilerplate
 - uses makefile instead of npm scripts. [rationale](https://spin.atomicobject.com/2021/03/22/makefiles-vs-package-json-scripts/)
 - public js is built to the `public` folder. other stuff for the fileserver are copied into `static`
 
+### boilerplate
+- the express boilerplate is from my [personal boilerplate setup](https://github.com/nicolasromer/express_ts_boilerplate)
+
 ### structure
 - you should keep each domain separated into its own api and data storage, copying the `wordModule` sample module
 - data is currently only in memory. but with the repository we can easily switch this for a DB later
